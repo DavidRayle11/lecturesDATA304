@@ -13,6 +13,10 @@ INSERT INTO students (name, age, grade) VALUES
 SELECT grade, COUNT(*) FROM students GROUP BY grade;
 SQL
 
+echo ""
+echo "This is just a test!" | wc
+echo ""
+
 # Run same query in Python via pandas
 python - <<'PY'
 import sqlite3, pandas as pd
